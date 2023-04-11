@@ -1,11 +1,12 @@
 import React from "react";
 import './landingPage.css';
-import { Header } from "../components";
+import { Header, HeroSection } from "../components";
 
 const LandingPage = () => {
     return (
         <div>
             <Header />
+            <HeroSection />
         </div>
     )
 }
