@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="contact-container">
             <div className="contact-container_text">
                 <p style={{fontSize: '40px', color: '#366ACF', fontWeight:'700'}}>Contact-us !</p>
-                <p style={{color: '#1E1E1E', width: 500, fontSize: '18px'}}>Would you happen to have a question or a personal request ? Feel free to contact us by filling out this form !</p>
+                <p style={{color: '#1E1E1E', fontSize: '18px'}}>Would you happen to have a question or a personal request ? Feel free to contact us by filling out this form !</p>
             </div>
 
             <div className="contact-container_inputs">

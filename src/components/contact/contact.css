@@ -8,12 +8,11 @@
 }
 
 .contact-container_text{
-    margin-right: 3rem;
-    margin-bottom: 2rem;
+    width: 50%;
 }
 
 .contact-container_inputs{
-    flex-grow: 2;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,4 +37,18 @@
 
 .message{
     height: 154px;
+}
+
+@media screen and (max-width: 750px) {
+    .contact-container_text{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contact-container_inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
