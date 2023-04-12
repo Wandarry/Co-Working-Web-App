@@ -1,0 +1,35 @@
+.card-container{
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    width: fit-content;
+    box-shadow: 5px 6px 25px 1px rgba(54, 106, 207, 0.5);
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+.card-container_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container_text_amenities{
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.card-container_text_amenity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.card-container_text_amenity p {
+    font-weight: 700;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import './landingPage.css';
-import { Header, HeroSection, FindRoom } from "../components";
+import { Header, HeroSection, FindRoom, AvailableRooms} from "../components";
 
 const LandingPage = () => {
     return (
@@ -8,6 +8,7 @@ const LandingPage = () => {
             <Header />
             <HeroSection />
             <FindRoom />
+            <AvailableRooms />
         </div>
     )
 }
