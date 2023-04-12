@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
+import LandingPage from './screen/landingPage';
 
 const App = () => {
   return (
-    <div>
-      Hey hey ! Salut toi !
-    </div>
+    <LandingPage/>
   )
 }
 

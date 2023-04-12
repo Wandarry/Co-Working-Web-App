@@ -1,0 +1,11 @@
+.availableRooms-container{
+    padding: 0rem 4rem;
+    font-family: Montserrat;
+}
+
+.availableRooms-container_title {
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--blue);
+    margin-bottom: 2rem;
+}
